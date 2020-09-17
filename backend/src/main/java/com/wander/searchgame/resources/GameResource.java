@@ -3,8 +3,6 @@ package com.wander.searchgame.resources;
 import java.util.List;
 
 import com.wander.searchgame.dto.GameDTO;
-import com.wander.searchgame.entities.Game;
-import com.wander.searchgame.repositories.GameRepository;
 import com.wander.searchgame.services.GameService;
 
 import org.springframework.beans.factory.annotation.Autowired;

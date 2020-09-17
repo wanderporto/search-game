@@ -71,4 +71,11 @@ public class Record implements Serializable {
         this.moment = moment;
     }
 
+    public Game getGame() {
+        return game;
+    }
+
+    public void setGame(Game game) {
+        this.game = game;
+    }
 }
