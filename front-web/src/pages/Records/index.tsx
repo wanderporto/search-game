@@ -4,7 +4,7 @@ import './styles.css';
 import { RecordsResponse } from './types';
 import { formatDate } from '../../helpers';
 import Pagination from './Pagination/index';
-import { Link } from 'react-router-dom';
+import Filters from '../../components/Filters';
 
 const BASE_URL = 'https://search-game-wander.herokuapp.com';
 
@@ -22,13 +22,7 @@ const Records = () => {
     }, [activePage])
     return (
         <div className="page-container">
-            <div className="filters-container records-actions">
-                <Link to="/charts">
-                    <button className="action-filter">
-                        VER GRÁFICOS
-                    </button>
-                </Link>
-            </div>
+            <Filters link="charts" linkText="VER GRÀFICO" />
             <table className="records-table" cellPadding="0" cellSpacing="0">
                 <thead>
                     <tr>
