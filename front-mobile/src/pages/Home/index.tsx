@@ -23,11 +23,11 @@ const Home = () => {
             <View style={styles.footer}>
                 <RectButton style={styles.button} onPress={handleOnPress}>
                     <Text style={styles.buttonText}>COLETAR DADOS</Text>
-                    <View style={styles.buttonText}>
+                    <View style={styles.buttonIcon}>
                         <Text style={styles.buttonText} >
                             <Icon name="chevron-right"
                                 color="#FFF"
-                                size={25}></Icon>
+                                size={25} />
                         </Text>
                     </View>
                 </RectButton>
