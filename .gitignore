@@ -1,3 +1,4 @@
-.history/
+.history
 create.sql
 node_modules/
+.vscode
